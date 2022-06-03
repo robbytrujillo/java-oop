@@ -6,4 +6,8 @@ public interface Car extends HasBrand, IsMaintenance{
     void driver();
 
     int getTire();
+
+    default boolean isBig(){ //tidak dioveride si methodnya dan avanza tidak wajib lagi
+        return false;
+    }
 }
