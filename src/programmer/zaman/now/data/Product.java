@@ -28,12 +28,12 @@ public class Product {
         return name != null ? name.equals(product.name) : product.name == null;
     }
 
-//    @Override
-//    public int hashCode() {
-//        int result = name != null ? name.hashCode() : 0;
-//        result = 31 * result + price;
-//        return result;
-//    }
+    @Override
+    public int hashCode() {
+        int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + price;
+        return result;
+    }
 
 
     //Cara Manual
