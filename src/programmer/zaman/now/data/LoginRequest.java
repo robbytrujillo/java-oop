@@ -13,8 +13,8 @@ public record LoginRequest(String username, String password) {
         this("", "");
     }
 
-    public void setStatemn(String username
-    this.username = userma){
-
-    }
+//    public void setStatemn(String username
+//    //this.username = userma){
+//
+//    }
 }
