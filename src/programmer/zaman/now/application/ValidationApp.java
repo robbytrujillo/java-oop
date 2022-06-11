@@ -14,7 +14,9 @@ public class ValidationApp {
             ValidationUtil.validate(loginRequest);
             System.out.println("Data Valid");
         } catch (ValidationException exception){
-            System.out.println("Data tidak Valid: " + exception.getMessage());
+            System.out.println("Terjadi Error Dengan Pesan : " + exception.getMessage());
+        } catch (NullPointerException exception){
+            System.out.println("Terjadi Error Dengan Pesan : " + exception.getMessage());
         }
     }
 }
