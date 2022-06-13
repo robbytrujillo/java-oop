@@ -28,5 +28,10 @@ public class ValidationApp {
         }finally {
             System.out.println("Error gak error, tetap di panggil");
         }
+
+        LoginRequest loginRequest2 = new LoginRequest(null, null);
+        ValidationUtil.validateRuntime(loginRequest2);
+        System.out.println("Sukses");
+
     }
 }
