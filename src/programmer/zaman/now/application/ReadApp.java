@@ -28,6 +28,7 @@ public class ReadApp {
         }catch (Throwable throwable){
             System.out.println("Error membaca file" + throwable.getMessage());
         }
+
 //        finally {
 //            if(reader != null){
 //                try {
